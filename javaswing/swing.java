@@ -9,7 +9,8 @@ public static void main(String[] args) {
 
         JPanel panel = new JPanel();
         JFrame frame=new JFrame();
-        frame.setSize(500,500);
+        frame.setSize(300,300);
+        frame.setTitle("Sign In");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.add(panel);
 
