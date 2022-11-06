@@ -24,7 +24,7 @@ class Chatbot extends JFrame {
         f.setResizable(false);
         f.setLayout(null);
         f.setSize(400, 400);
-        f.getContentPane().setBackground(Color.cyan);
+        f.getContentPane().setBackground(Color.blue);
         f.setTitle("ChatBot");
         f.add(ca);
         f.add(cf);
@@ -52,15 +52,23 @@ class Chatbot extends JFrame {
                     if (text.contains("hi")) {
                         replyMeth("Hi there");
                     } else if (text.contains("how are you")) {
-                        replyMeth("I'm Good :).Thankyou for asking");
+                        replyMeth("I'm Good :).Thankyou for asking. How about you?");
                     } else if (text.contains("what is your name")) {
-                        replyMeth("I'm the Trending BINOD");
-                    } else if (text.contains("gender")) {
-                        replyMeth("I'm Female.Don't Try to Flirt with me" + "\n" + "you Fell in love :)");
+                        replyMeth("I'm 108X11");
+                    } else if (text.contains("what is your gender")) {
+                        replyMeth("I'm .:)");
                     } else if (text.contains("love you")) {
                         replyMeth("I'm Feeling Shy :) Love you to");
                     } else if (text.contains("bye")) {
                         replyMeth("Too Soon :( AnyWays" + "\n" + "STAY HOME STAY SAFE ");
+                    } else if (text.contains("what is love")) {
+                        replyMeth("An emotion ");
+                    } else if (text.contains("what is infatuation")) {
+                        replyMeth("It's when you love someone for a wrong reason.");
+                    } else if (text.contains("what is attraction")) {
+                        replyMeth("When you like a person. ");
+                    } else if (text.contains("Give me love advice")) {
+                        replyMeth("First, don't be clingy or he/she won't like you anymore. ");
                     } else
                         replyMeth("I Can't Understand");
 
@@ -73,7 +81,7 @@ class Chatbot extends JFrame {
     }
 
     public void replyMeth(String s) { // Reply Method
-        ca.append("ChatBot-->" + s + "\n");
+        ca.append("Bot-->" + s + "\n");
     }
 
 }
