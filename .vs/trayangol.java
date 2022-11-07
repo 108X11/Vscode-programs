@@ -19,5 +19,15 @@ public class trayangol {
 
         System.out.println("The area of a Triangle is " + area);
 
+
+
+        System.out.println("Enter radius");
+        float radius = sc.nextFloat();
+
+         area = (float)(3.14*radius*radius);
+        
+        System.out.println("Area of a circle" +" " + area);
+        System.out.println("The area of a Triangle is " + "  "+ area);
+
     }
 }
