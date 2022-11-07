@@ -4,20 +4,22 @@
 import java.util.Scanner; // Scanner class
 public class cylinder{
         public static void main(String[] args){
-        /*Scanner input = new Scanner(System.in); //Predefined standard Input Object
-        float radius;
-        ; // declare height here
-        double volume;
+            Scanner input = new Scanner(System.in);   //Predefined standard Input Object    
+            float radius; 
+            float height;          // declare height here    
+            double volume; 
+        
+            System.out.println("Enter radius:");    
+            radius = input.nextFloat(); 
+        
+           System.out.println("Enter height:");       // Statement to enter the height    
+            height = input.nextFloat();    
+            volume = 3.14*(radius*radius)*height;        // Cylinder Volume Formula 
+            System.out.println("The volume of the cylinder is: " + volume);
+        
 
-        System.out.println("Enter radius:");
-        radius = input.nextFloat();
-        ; // Statement to enter the height
-        height = input.nextFloat();
-        volume = // Cylinder Volume Formula
-        System.out.println("The volume of the cylinder is: " + volume);*/
 
-
-    float radius, area, circum;
+    /*float radius, area, circum;
     Scanner s = new Scanner(System.in);
     
     System.out.print("Enter the Radius of Circle: ");
@@ -28,7 +30,7 @@ public class cylinder{
 
 
     System.out.println("Area of Circle " +area);
-    System.out.println("Circumference of a circle = " +circum);
+    System.out.println("Circumference of a circle = " +circum);*/
         }
     }
 

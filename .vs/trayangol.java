@@ -26,7 +26,7 @@ public class trayangol {
 
          area = (float)(3.14*radius*radius);
         
-        System.out.println("Area of a circle" +" " + area);
+        System.out.println("Area of a circle" + area);
         System.out.println("The area of a Triangle is " + "  "+ area);
 
     }
