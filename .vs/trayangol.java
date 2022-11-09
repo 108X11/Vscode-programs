@@ -9,14 +9,15 @@ public class trayangol {
 
         Scanner sc = new Scanner(System.in);
 
+
         System.out.print("Enter the base");
-        float base = sc.nextFloat();
+        double base = sc.nextInt();
 
         System.out.print("Enter the radius: ");
-        float height = sc.nextFloat();
+        double height = sc.nextInt();
 
 
-        float area = (base * height) / 2;
+        double area = (base * height) / 2;
 
         System.out.println("The area of a Triangle is: " + area);
 
