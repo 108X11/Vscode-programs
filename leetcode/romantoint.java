@@ -26,7 +26,7 @@ public class romantoint {
 
             /*
              * If current Roman numeral value is greater than
-             * then the next value, the do addition.
+             * then the next value, then do addition.
              */
             if (charMap.get(A.charAt(i)) >= charMap.get(A.charAt(i + 1))) {
                 result = result + charMap.get(A.charAt(i));
