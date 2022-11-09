@@ -45,7 +45,7 @@ public static void main(String[] args) {
  
     //String str = "IV";
     //String str = "XXIV";
-      String str = "XC";
+      String str = "XXIV";
 
       int result = romanToInt(str);
       System.out.println(result);
