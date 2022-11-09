@@ -6,28 +6,29 @@ public class trayangol {
          //Get the area of a triangle using scanner
          //Get the area of a triangle given it's base and height
 
+
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter the base ");
-        double base = sc.nextDouble();
+        System.out.print("Enter the base");
+        float base = sc.nextFloat();
 
-        System.out.print("Enter the radius ");
-        double height = sc.nextDouble();
-
-
-        double area = (base * height) / 2;
-
-        System.out.println("The area of a Triangle is " + area);
+        System.out.print("Enter the radius: ");
+        float height = sc.nextFloat();
 
 
+        float area = (base * height) / 2;
 
-        System.out.println("Enter radius");
+        System.out.println("The area of a Triangle is: " + area);
+
+
+
+        /*System.out.println("Enter radius:");
         float radius = sc.nextFloat();
 
-         area = (float)(3.14*radius*radius);
+         area = (3.14f*radius*radius);
         
-        System.out.println("Area of a circle" + area);
-        System.out.println("The area of a Triangle is " + "  "+ area);
+        System.out.println("Area of a circle:" + " " + area);
+        System.out.println("The area of a Triangle is: " + "  "+ area);*/
 
     }
 }
