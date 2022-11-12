@@ -9,6 +9,12 @@ public class meth{
         System.out.println("3. Insert");
         System.out.println("4. Delete all");
 
+        chooseNumber();
+        
+        }
+
+    static void chooseNumber(){
+
         Scanner sc = new Scanner(System.in);
 
         //Ask what action the person wants
@@ -21,10 +27,20 @@ public class meth{
             addString();
 
             case 2:
+            removeString();
 
+            case 3:
+            removeString();
+
+            case 4:
+            insertString();
+
+            case 5:
+            deleteString();
         }
-        
+
     }
+        
 
 
     static void addString(){
@@ -36,9 +52,25 @@ public class meth{
 
         System.out.println("You added: " + name);
 
+        System.out.println("1. Add");
+        System.out.println("2. Remove");
+        System.out.println("3. Insert");
+        System.out.println("4. Delete all");
+
+        chooseNumber();
         
+    }
+
+    static void removeString(){
 
     }
 
+    static void insertString(){
+
+    }
+
+    static void deleteString(){
+
+    }
     
 }
