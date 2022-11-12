@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javax.sql.rowset.spi.SyncResolver;
-
 public class meth{
 
     public static void main (String []args){
@@ -13,12 +11,19 @@ public class meth{
 
         Scanner sc = new Scanner(System.in);
 
+        //Ask what action the person wants
         System.out.print("What do you want to do? ");
         int choose = sc.nextInt();
 
-        if (choose == 1){
+        //this action determin if the user input matches with the numbers then proceed with the statement
+        switch(choose){
+            case 1:
             addString();
+
+            case 2:
+
         }
+        
     }
 
 
