@@ -17,8 +17,8 @@ public class mamal {
         System.out.println("Can_Bark?:");
         int ys = sc.next().charAt(0);
 
-        if(yes=='y' || yes == 'Y'){
-            if(ys== 'y' || ys == 'Y'){
+        if(yes == 'y' || yes == 'Y'){
+            if(ys == 'y' || ys == 'Y'){
                 System.out.println("Dog");
             }else{
                 System.out.println("Cat");
