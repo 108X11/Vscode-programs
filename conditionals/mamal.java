@@ -6,7 +6,7 @@ public class mamal {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Is_Mamal?:");
+        System.out.println("Is_Mammal?:");
         char yes = sc.next().charAt(0);
 
         System.out.println("No_of_Legs:");
