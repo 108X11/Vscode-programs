@@ -6,8 +6,6 @@ public class mamal {
 
         Scanner sc = new Scanner(System.in);
 
-    
-
         System.out.println("Is_Mamal?:");
         char yes = sc.next().charAt(0);
 
@@ -15,10 +13,10 @@ public class mamal {
         int legs = sc.nextInt();
 
         System.out.println("Can_Bark?:");
-        int ys = sc.next().charAt(0);
+        int bark = sc.next().charAt(0);
 
         if(yes == 'y' || yes == 'Y'){
-            if(ys == 'y' || ys == 'Y'){
+            if(bark == 'y' || bark == 'Y'){
                 System.out.println("Dog");
             }else{
                 System.out.println("Cat");
