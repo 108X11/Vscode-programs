@@ -63,13 +63,54 @@ public class meth{
 
     static void removeString(){
 
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter name: ");
+        String name = sc.next();
+
+        System.out.println("You added: " + name);
+
+        System.out.println("1. Add");
+        System.out.println("2. Remove");
+        System.out.println("3. Insert");
+        System.out.println("4. Delete all");
+
+        chooseNumber();
     }
 
     static void insertString(){
 
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter name: ");
+        String name = sc.next();
+
+        System.out.println("You added: " + name);
+
+        System.out.println("1. Add");
+        System.out.println("2. Remove");
+        System.out.println("3. Insert");
+        System.out.println("4. Delete all");
+
+        chooseNumber();
+
     }
 
     static void deleteString(){
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter name: ");
+        String name = sc.next();
+
+        System.out.println("You added: " + name);
+
+        System.out.println("1. Add");
+        System.out.println("2. Remove");
+        System.out.println("3. Insert");
+        System.out.println("4. Delete all");
+
+        chooseNumber();
 
     }
     
