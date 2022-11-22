@@ -18,6 +18,8 @@ public class bingo{
             System.out.println("G"); 
         }else if ((num >= 61) && (num <= 75)){
             System.out.println("O");
+        }else{
+            System.out.println("Invalid number");
         }
     }
 }
