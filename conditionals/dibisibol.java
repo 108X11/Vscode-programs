@@ -10,11 +10,11 @@ public class dibisibol {
 
         if(num % 5 == 0){
             
-            System.out.println("It's divisible by 5");
+            System.out.println("It's multiple of 5");
 
         }else{
 
-            System.out.println("It's not divisivle by 5");
+            System.out.println("It's not mutliple of 5");
         }
     }
 }
