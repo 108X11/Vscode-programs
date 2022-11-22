@@ -10,7 +10,7 @@ public class dibisibol {
 
         if(num % 5 == 0){
             
-            System.out.println("It's multiple of 5");
+            System.out.println("It's a multiple of 5");
 
         }else{
 
