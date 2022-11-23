@@ -8,9 +8,12 @@ public class forloopppp {
         int i = sc.nextInt();
 
         //print any number below 10 then increment
+
+        //for(initilization; condition; incerement/decrement){Statement}
         /*for(; i<10; i++ ){
             System.out.println(i);
         }*/
+
 
         while(i<10){
             System.out.println(i);
