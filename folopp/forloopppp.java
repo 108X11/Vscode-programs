@@ -4,7 +4,7 @@ public class forloopppp {
  public static void main(String[]args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter number ");
+        System.out.print("Enter number: ");
         int i = sc.nextInt();
 
         //print any number below 10 then increment

@@ -4,7 +4,7 @@ public class arrayinput {
     
     public static void main(String[] args) {
         Scanner in=new Scanner (System.in);
-        int num[]=new int[10];
+        int num[]=new int[5];
         int average=0;
         int sum=0;
 
@@ -13,7 +13,7 @@ public class arrayinput {
             num[i]=in.nextInt();
             sum=sum+num[i];
         }
-        average=sum/10;
+        average=sum/5;
         System.out.println("Average="+ average);
     }
 }
