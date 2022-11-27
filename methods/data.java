@@ -44,6 +44,5 @@ public class data{
          for(String Name : names){
          System.out.println("Names " + Name);
          }
-
     }
 }
