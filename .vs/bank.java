@@ -12,12 +12,12 @@ public static void main(String[] args) {
         int balance;
         int previoustransact;
         String custormersName;
-        String cystomersId;
+        String customersId;
 
         bankaccount(String cname, String cId){
 
             custormersName = cname;
-            customersId
+            customersId = cId;
 
         }
 
@@ -47,7 +47,7 @@ public static void main(String[] args) {
             }
          }
          void showMenu(){
-
+            
          }
     }
 }
