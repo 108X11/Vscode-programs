@@ -10,6 +10,7 @@ public class calc{
 
         Scanner sc = new Scanner(System.in);
 
+        do{
         System.out.println("1 Addittion");
         System.out.println("2 Subtraction");
         System.out.println("3 Multiplication");
@@ -80,6 +81,9 @@ public class calc{
             default:
                 System.out.println("Wrong Operand");
         }
+        System.out.println("Do you want to retry? y for yes and n for no");
+        char i = sc.next().charAt(0);
+        }while(i == 'y' || i == 'Y')
 
     }
 }

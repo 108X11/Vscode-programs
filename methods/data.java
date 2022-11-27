@@ -17,6 +17,7 @@ public class data{
         names.add("James");
         names.add("Mark");
         names.add("Honey");
+        names.add("Mary");
 
         System.out.println(names);
         System.out.println("The number of elements are: " + names.size());

@@ -11,7 +11,7 @@ public class CheckOddEven{
         sc.close();
 
         // Determine whether the number entered is odd or even
-         if(number % 2 == 0){
+         if((number % 2) == 0){
              System.out.println("Remark: Even");
          }else {
              System.out.println("Remark: Odd");
