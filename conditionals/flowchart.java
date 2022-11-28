@@ -11,7 +11,7 @@ public class flowchart {
 
         System.out.println("Enter y: ");
         int y = sc.nextInt();
-
+ 
         System.out.println("Enter z: ");
         int z = sc.nextInt();
 
