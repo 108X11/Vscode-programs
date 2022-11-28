@@ -56,7 +56,7 @@ class Chatbot extends JFrame {
                     } else if (text.contains("what is your name")) {
                         replyMeth("I'm 108X11");
                     } else if (text.contains("what is your gender")) {
-                        replyMeth("I'm .:)");
+                        replyMeth("I'm not a male nor female...)");
                     } else if (text.contains("love you")) {
                         replyMeth("I'm Feeling Shy :) Love you to");
                     } else if (text.contains("bye")) {
