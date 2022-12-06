@@ -1,8 +1,8 @@
-num1 = int(input("Enter number 1 "))
+num1 = int(input("Enter number 1: "))
 
-num2 = int(input("Enter number 2 "))
+num2 = int(input("Enter number 2: "))
 
-ope = str(input("Enter operator "))
+ope = str(input("Enter operator: "))
 
 if ope == '+':
     add = num1 + num2
