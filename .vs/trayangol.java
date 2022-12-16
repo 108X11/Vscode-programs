@@ -9,10 +9,10 @@ public class trayangol {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the base: ");
-        double base = sc.nextInt();
+        double base = sc.nextDouble();
 
         System.out.print("Enter the radius: ");
-        double height = sc.nextInt();
+        double height = sc.nextDouble();
 
         double area = (base * height) / 2;
 
