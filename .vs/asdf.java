@@ -9,6 +9,7 @@ public class asdf {
 
     System.out.println("Enter a number ");
     int num = scan.nextInt();
+    scan.close();
 
     while (num >= x) {
       sum = sum + x;
