@@ -4,7 +4,7 @@ public class trayangol {
     public static void main(String[] args) {
 
         // Get the area of a triangle using scanner
-        // Get the area of a triangle given it's base and height
+        // Get the area of a triangle given its base and height
 
         Scanner sc = new Scanner(System.in);
 
