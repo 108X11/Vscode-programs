@@ -7,15 +7,16 @@ public class negative {
     Scanner scan = new Scanner(System.in);
 
     while (true) {
-      System.out.print("Enter a number:");
+      System.out.print("Enter a number: ");
       num = scan.nextInt();
 
+      if (num > highest) {
+        highest = num;
+      }
       if (num == -999)
         break;
     }
-    if (num < highest) {
-      highest = num;
-    }
-    System.out.println("Highest number is: " + highest);
+
+    System.out.print("Highest number is: " + highest);
   }
 }
