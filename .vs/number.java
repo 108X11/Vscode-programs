@@ -10,8 +10,10 @@ public class number {
       System.out.println("Enter a number");
       num = scan.nextInt();
 
-      // The twist of the infinite loop wherein if num is less than zero the loop will
-      // stop and then proceeds to the next block
+      /*
+       * The twist of the infinite loop wherein if num is less than zero the loop will
+       * stop and then proceeds to the next block
+       */
       if (num < 0)
         break;
     }
