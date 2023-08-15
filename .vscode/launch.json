@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Phone",
+      "request": "launch",
+      "mainClass": "Phone",
+      "projectName": "Vscode-programs_72366a38"
+    },
+    {
+      "type": "java",
       "name": "Launch Banked",
       "request": "launch",
       "mainClass": "Banked",
