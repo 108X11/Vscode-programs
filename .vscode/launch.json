@@ -1,0 +1,371 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Banked",
+      "request": "launch",
+      "mainClass": "Banked",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch Asssignment5_2",
+      "request": "launch",
+      "mainClass": "Asssignment5_2",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CheckOddEven",
+      "request": "launch",
+      "mainClass": "CheckOddEven",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch DoublyLinkedList",
+      "request": "launch",
+      "mainClass": "DoublyLinkedList",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch EX",
+      "request": "launch",
+      "mainClass": "EX",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch OrderValueCompute",
+      "request": "launch",
+      "mainClass": "OrderValueCompute",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Stack",
+      "request": "launch",
+      "mainClass": "Stack",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch aorp",
+      "request": "launch",
+      "mainClass": "aorp",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch array",
+      "request": "launch",
+      "mainClass": "array",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch arrayinput",
+      "request": "launch",
+      "mainClass": "arrayinput",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch asdf",
+      "request": "launch",
+      "mainClass": "asdf",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch asess2",
+      "request": "launch",
+      "mainClass": "asess2",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch bank",
+      "request": "launch",
+      "mainClass": "bank",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch banked",
+      "request": "launch",
+      "mainClass": "banked",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch bingo",
+      "request": "launch",
+      "mainClass": "bingo",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch calcu",
+      "request": "launch",
+      "mainClass": "calcu",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch celtofa",
+      "request": "launch",
+      "mainClass": "celtofa",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch checkif",
+      "request": "launch",
+      "mainClass": "checkif",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch clock",
+      "request": "launch",
+      "mainClass": "clock",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch compVol",
+      "request": "launch",
+      "mainClass": "compVol",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch cylinder",
+      "request": "launch",
+      "mainClass": "cylinder",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch data",
+      "request": "launch",
+      "mainClass": "data",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch dibisibol",
+      "request": "launch",
+      "mainClass": "dibisibol",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch dowhile",
+      "request": "launch",
+      "mainClass": "dowhile",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch excersise",
+      "request": "launch",
+      "mainClass": "excersise",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch fahrentocel",
+      "request": "launch",
+      "mainClass": "fahrentocel",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch fibonacci",
+      "request": "launch",
+      "mainClass": "fibonacci",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch findnum",
+      "request": "launch",
+      "mainClass": "findnum",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch finwords",
+      "request": "launch",
+      "mainClass": "finwords",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch flowchart",
+      "request": "launch",
+      "mainClass": "flowchart",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch forloopppp",
+      "request": "launch",
+      "mainClass": "forloopppp",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch hrminsec",
+      "request": "launch",
+      "mainClass": "hrminsec",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch javamanen",
+      "request": "launch",
+      "mainClass": "javamanen",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch mamal",
+      "request": "launch",
+      "mainClass": "mamal",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch math",
+      "request": "launch",
+      "mainClass": "math",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch meth",
+      "request": "launch",
+      "mainClass": "meth",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch mymethod",
+      "request": "launch",
+      "mainClass": "mymethod",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch negative",
+      "request": "launch",
+      "mainClass": "negative",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch number",
+      "request": "launch",
+      "mainClass": "number",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch palindrome",
+      "request": "launch",
+      "mainClass": "palindrome",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch password_gen",
+      "request": "launch",
+      "mainClass": "password_gen",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch pattern",
+      "request": "launch",
+      "mainClass": "pattern",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch positiveneg",
+      "request": "launch",
+      "mainClass": "positiveneg",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch printnumberinword",
+      "request": "launch",
+      "mainClass": "printnumberinword",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch prog",
+      "request": "launch",
+      "mainClass": "prog",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch projectalexa",
+      "request": "launch",
+      "mainClass": "projectalexa",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch romantoint",
+      "request": "launch",
+      "mainClass": "romantoint",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch search",
+      "request": "launch",
+      "mainClass": "search",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch swing",
+      "request": "launch",
+      "mainClass": "swing",
+      "projectName": "Vscode-programs_3a1498bb"
+    },
+    {
+      "type": "java",
+      "name": "Launch terminal",
+      "request": "launch",
+      "mainClass": "terminal",
+      "projectName": "Vscode-programs_3a1498bb"
+    }
+  ]
+}
