@@ -1,14 +1,15 @@
-public class inherit {
+public class Inherit {
   protected String brand = "OPPO";
 
   public void ringtone() {
     System.out.println("ringggggg!!!!");
   }
 }
-class Phone extends inherit {
+
+class Phone extends Inherit {
   private String modelName = "A5S";
 
-   public static void main(String[] args) {
+  public static void main(String[] args) {
 
     Phone myPhone = new Phone();
 
