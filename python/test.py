@@ -2,7 +2,7 @@ num1 = int(input("Enter number 1: "))
 
 num2 = int(input("Enter number 2: "))
 
-ope = str(input("Enter operator: "))
+ope = char(input("Enter operator: "))
 
 if ope == '+':
     add = num1 + num2

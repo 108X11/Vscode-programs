@@ -5,6 +5,7 @@ public class Dia {
     int n = 4;
 
     System.out.println("Asterisk Diamond Pattern:");
+    // Up Triangle
     for (int i = 1; i <= n; i++) {
       for (int j = 1; j <= n - i; j++) {
         System.out.print(" ");
@@ -15,6 +16,7 @@ public class Dia {
       System.out.print("*");
       System.out.println();
     }
+    // Down Triangle
     for (int i = n - 1; i >= 1; i--) {
       for (int j = 1; j <= n - i; j++) {
         System.out.print(" ");
@@ -80,11 +82,12 @@ public class Dia {
     }
     System.out.println("The sum of all the elements in the array: " + total);
 
-    //Display the maximum number in teh array
-    
+    // Display the maximum number in the array
+
     int max = 0;
 
-    //Compare each then replace if ther is higher number until the condition is not met
+    // Compare each then replace if ther is higher number until the condition is not
+    // met
     for (int num : arr) {
       if (num > max) {
         max = num;

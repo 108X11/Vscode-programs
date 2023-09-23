@@ -2,7 +2,7 @@ public class pattern {
   public static void main(String[] args) {
     int n = 5;
 
-    // this a patter for square
+    // this a pattern for square
 
     for (int x = 1; x <= n; x++) {
       for (int j = 1; j <= n; j++) {
@@ -17,7 +17,7 @@ public class pattern {
 
     for (int x = 1; x <= n; x++) {
       for (int j = 1; j <= x; j++) {
-        System.out.print("* ");
+        System.out.print("*");
       }
       System.out.println();
     }
@@ -30,9 +30,9 @@ public class pattern {
         System.out.print(" ");
       }
       for (int j = 1; j <= x; j++) {
-        System.out.print("* ");
+        System.out.print("");
       }
-      System.out.println();
+      System.out.println("*");
     }
 
     System.out.println();

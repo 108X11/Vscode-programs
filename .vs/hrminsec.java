@@ -14,7 +14,7 @@ public class hrminsec {
 
 		p2 = p2 / 60;
 
-		System.out.println("HOURS:" + " " + p2);
+		System.out.println("HOURS " +  p2);
         System.out.println("MINUTES:" + " " + p3);
         System.out.println("SECONS:" + " " + p1);
     }
