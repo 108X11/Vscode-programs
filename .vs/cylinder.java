@@ -4,9 +4,15 @@
 import java.util.Scanner; // Scanner class
 public class cylinder{
         public static void main(String[] args){
+<<<<<<< HEAD
             Scanner input = new Scanner(System.in);   //   
             float radius; 
             float height;          
+=======
+            Scanner input = new Scanner(System.in);   //Predefined standard Input Object    
+            float radius; 
+            float height;          // declare height here    
+>>>>>>> c955ef999f5df98b589e0bc977638777e0649a70
             double volume; 
         
             System.out.println("Enter radius:");    

@@ -6,7 +6,11 @@ public class printnumberinword {
         //Enter number 1 to 10
         System.out.print("Input number from 1 to 10:" );
         int number = sc.nextInt();
+<<<<<<< HEAD
         
+=======
+        sc.close();
+>>>>>>> c955ef999f5df98b589e0bc977638777e0649a70
 
         //Switch statementt
         switch(number){
