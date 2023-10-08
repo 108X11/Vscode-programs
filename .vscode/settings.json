@@ -1,13 +1,12 @@
 {
     "java.project.sourcePaths": [
-        "proramming exercise",
         "methods",
+        "leetcode",
         "javaswing",
         "folopp",
-        ".vs",
-        "leetcode",
         "enums",
-        "recursion",
-        "conditionals"
+        "conditionals",
+        ".vs",
+        "Activities"
     ]
 }
